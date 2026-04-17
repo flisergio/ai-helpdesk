@@ -1,0 +1,5 @@
+{
+  "name": "flisergio-helpdesk",
+  "private": true,
+  "workspaces": ["client", "server"]
+}

@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__context7__query-docs",
+      "Bash(where bun:*)",
+      "Bash(npm install:*)",
+      "Bash(bun:*)",
+      "Bash(npx bun:*)",
+      "Bash(npx tsc:*)",
+      "mcp__context7__resolve-library-id",
+      "Bash(timeout 5 npx tsx src/index.ts)",
+      "Bash(curl -s http://localhost:3000/health)",
+      "Bash(curl -s http://localhost:3000/api)",
+      "Bash(ls:*)",
+      "Bash(export PATH=\"$PATH:/c/Users/C5409939/AppData/Roaming/npm\")",
+      "Read(//c/Users/C5409939/.bun//**)",
+      "Read(//c/Users/C5409939/AppData/Local/**)",
+      "Read(//c/Users/C5409939/AppData/Roaming/**)",
+      "Bash(cmd.exe /c \"where bun\")",
+      "Bash(npm --version)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/nodejs:/c/Users/C5409939/AppData/Roaming/npm\")",
+      "Bash(curl:*)",
+      "Bash(export PATH=\"/c/Users/C5409939/.bun/bin:$PATH\")"
+    ]
+  }
+}
