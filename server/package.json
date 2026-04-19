@@ -4,15 +4,19 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "postinstall": "prisma generate",
     "dev": "bun --watch src/index.ts",
     "build": "bun build src/index.ts --outdir dist --target node",
     "start": "bun dist/index.js"
   },
   "dependencies": {
+    "@prisma/adapter-pg": "^7.7.0",
+    "@prisma/client": "^7.7.0",
     "express": "^5.1.0"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
+    "prisma": "^7.7.0",
     "typescript": "^5.8.0"
   }
 }
