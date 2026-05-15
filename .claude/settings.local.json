@@ -20,7 +20,10 @@
       "Bash(npm --version)",
       "Bash(export PATH=\"$PATH:/c/Program Files/nodejs:/c/Users/C5409939/AppData/Roaming/npm\")",
       "Bash(curl:*)",
-      "Bash(export PATH=\"/c/Users/C5409939/.bun/bin:$PATH\")"
+      "Bash(export PATH=\"/c/Users/C5409939/.bun/bin:$PATH\")",
+      "Bash(bunx @better-auth/cli generate)",
+      "Bash(bunx prisma:*)",
+      "Bash(bunx --bun prisma migrate dev --name add-auth-tables)"
     ]
   }
 }
